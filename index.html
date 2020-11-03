@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- target="_blank" -->
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Web Design Challenge</title>
+    <style>
+   
+        h1 {
+            text-align: left;
+            font-size: 35px;
+            color: cornflowerblue;
+            padding: 5px;
+            /* background-color: rgba(45,45,45,0.1); */
+            text-transform: capitalize;
+        }
+        h1:hover {
+          color: red;
+        }
+        h2 {
+            text-align: center;
+            font-size: 35px;
+            color: black;
+            padding: 10px;
+            background-color: rgba(45,45,45,0.25);
+            text-transform: uppercase;
+        }
+        h2:hover {
+          color: red;
+        }
+        .img-container {
+            text-align: center;
+            }
+        img {
+                width: 500px;
+                height: 500px;
+        }
+        #thumbnail {
+        box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 6px 6px rgba(0,0,0,0.4);
+      }
+      </style>
 </head>
-<body>
-    
+<body vlink="#FF0000">  <!-- vlink should be replaced with CSS equivalent -->
+    <div>
+        <h2>Homepage</h2>
+        <hr/>
+        <p>Add an explanation of the project.</p>
+        <p>Add links to each visualizations page. 
+           There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.</p>
+    </div>
+    <div>
+        <p>My career-enhancing webpage.</p>
+        <blockquote>
+        <ul>
+            <a href="index.html">Homepage</a><br>
+            <a href="Viz1.html">Viz 1</a><br>
+            <a href="Viz2.html">Viz 2</a><br>
+            <a href="Viz3.html">Viz 3</a><br>
+            <a href="Viz4.html">Viz 4</a><br>
+        </ul>
+        </blockquote>
+    </div>
+<!--
+    <div>
+    <table>
+        <tr>
+            <th>Table Header 1</th>
+            <th>Table Header 2</th>
+        </tr>
+        <tr>
+            <td>Cell 1</td>
+            <td>Cell 2</td>
+            <td>Cell 3</td>
+        </tr>
+        <tr>
+            <td>Cell 4</td>
+            <td>Cell 5</td>
+            <td>Cell 6</td>
+        </tr>
+        <tr>
+            <td>Cell 7</td>
+            <td>Cell 8</td>
+            <td>Cell 9</td>
+        </tr>
+    </table>
+    </div>
+    -->
+    <br>
+    <h1>Visualizations</h1>
+    <hr>
+    <div class="img-container" >
+        <a href="Viz1.html"><img id="thumbnail" src="Resources/assets/images/Fig1.png" alt="Fig1.png"></a>
+        <a href="Viz2.html"><img id="thumbnail" src="Resources/assets/images/Fig2.png" alt="Fig2.png"></a>
+        <a href="Viz3.html"><img id="thumbnail" src="Resources/assets/images/Fig3.png" alt="Fig3.png"></a>
+        <a href="Viz4.html"><img id="thumbnail" src="Resources/assets/images/Fig4.png" alt="Fig4.png"></a>
+    </div>
 </body>
+
 </html>
