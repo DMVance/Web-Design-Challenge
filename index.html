@@ -7,45 +7,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Design Challenge</title>
-    <style>
-   
-        h1 {
-            text-align: left;
-            font-size: 35px;
-            color: cornflowerblue;
-            padding: 5px;
-            /* background-color: rgba(45,45,45,0.1); */
-            text-transform: capitalize;
-        }
-        h1:hover {
-          color: red;
-        }
-        h2 {
-            text-align: center;
-            font-size: 35px;
-            color: black;
-            padding: 10px;
-            background-color: rgba(45,45,45,0.25);
-            text-transform: uppercase;
-        }
-        h2:hover {
-          color: red;
-        }
-        .img-container {
-            text-align: center;
-            }
-        img {
-                width: 500px;
-                height: 500px;
-        }
-        #thumbnail {
-        box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 6px 6px rgba(0,0,0,0.4);
-      }
-      </style>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
-<body vlink="#FF0000">  <!-- vlink should be replaced with CSS equivalent -->
+<body vlink="#FF0000" id="gradient1">  <!-- vlink should be replaced with CSS equivalent -->
     <div>
-        <h2>Homepage</h2>
+        <label for="Viz-select">Select a Visualization:</label>
+
+        <select name="Visualizations" id="Viz-select">
+            <option value="">--Please choose an option--</option>
+            <option value="Homepage">Homepage</option>
+            <option value="Visualization 1">Visualization 1</option>
+            <option value="Visualization 2">Visualization 2</option>
+            <option value="Visualization 3">Visualization 3</option>
+            <option value="Visualization 4">Visualization 4</option>
+            <option value="Comparisons">Comparisons</option>
+            <option value="Data">Data</option>
+        </select>
+    </div>
+    <div>
+        <h2>Summary: Latitude vs. X</h2>
         <hr/>
         <p>Add an explanation of the project.</p>
         <p>Add links to each visualizations page. 
@@ -63,6 +43,7 @@
         </ul>
         </blockquote>
     </div>
+    
 <!--
     <div>
     <table>
@@ -92,10 +73,10 @@
     <h1>Visualizations</h1>
     <hr>
     <div class="img-container" >
-        <a href="Viz1.html"><img id="thumbnail" src="Resources/assets/images/Fig1.png" alt="Fig1.png"></a>
-        <a href="Viz2.html"><img id="thumbnail" src="Resources/assets/images/Fig2.png" alt="Fig2.png"></a>
-        <a href="Viz3.html"><img id="thumbnail" src="Resources/assets/images/Fig3.png" alt="Fig3.png"></a>
-        <a href="Viz4.html"><img id="thumbnail" src="Resources/assets/images/Fig4.png" alt="Fig4.png"></a>
+        <a href="Viz1.html"><img id="thumbnail" src="Resources/assets/images/Fig1.png" alt="City Latitude vs. Max Temperature"></a>
+        <a href="Viz2.html"><img id="thumbnail" src="Resources/assets/images/Fig2.png" alt="City Latitude vs. Humidity"></a>
+        <a href="Viz3.html"><img id="thumbnail" src="Resources/assets/images/Fig3.png" alt="City Latitude vs. Cloudiness"></a>
+        <a href="Viz4.html"><img id="thumbnail" src="Resources/assets/images/Fig4.png" alt="City Latitude vs. Wind Speed"></a>
     </div>
 </body>
 
