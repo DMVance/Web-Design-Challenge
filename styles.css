@@ -37,9 +37,8 @@ background-color: linen;
 /* background-image: linear-gradient(blue, orange); */
 }
 
-h3 {
+.text-center {
     text-align: center;
-    color: mediumaquamarine;
 }
 
 .caption {
