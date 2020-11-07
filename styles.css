@@ -36,3 +36,16 @@ height: 300px;
 background-color: linen;
 /* background-image: linear-gradient(blue, orange); */
 }
+
+.button-ctr {
+        justify-content: center;
+        align-items: center;
+        display: block;
+        text-align: center;
+}
+
+.caption {
+        width: 100%;
+}
+
+
