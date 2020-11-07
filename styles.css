@@ -25,8 +25,8 @@ h2:hover {
     text-align: center;
     }
 img {
-        width: 500px;
-        height: 500px;
+    width: 500px;
+    height: 500px;
 }
 #thumbnail {
 box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 6px 6px rgba(0,0,0,0.4);
@@ -37,15 +37,13 @@ background-color: linen;
 /* background-image: linear-gradient(blue, orange); */
 }
 
-.button-ctr {
-        justify-content: center;
-        align-items: center;
-        display: block;
-        text-align: center;
+h3 {
+    text-align: center;
+    color: mediumaquamarine;
 }
 
 .caption {
-        width: 100%;
+    width: 100%;
 }
 
 
